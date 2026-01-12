@@ -1,0 +1,38 @@
+
+.scrolly{
+    margin-bottom: 0;
+}
+
+.sticky{
+    position: sticky;
+    top: 4rem;
+    z-index: 0;
+}
+
+.inside{
+    width: 45rem;
+    height: 35rem;
+    z-index: 0;
+    margin-bottom: 5rem;
+}
+
+.textscroll{
+    margin: 100vh 20vw;
+    padding: 16px;
+    color: black;
+    background-color: #E8E0D3;
+    border: 1px solid #E8E0D3;
+    position: relative;
+    z-index: 2;
+    font-family: "Amarna", sans-serif;
+}
+
+.lastscroll{
+    padding: 30px;
+    color: #FFFFFF;
+    background-color: #242424;
+    border: 1px solid #242424;
+    position: relative;
+    z-index: 2;
+    font-family: "Amarna", sans-serif;
+}

@@ -1,0 +1,40 @@
+
+.title{
+    padding: 0 15vw 0 15vw;
+    font-family: "Anybody", sans-serif;;
+    font-size: 6rem;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: 4rem;
+    
+}
+
+.the{
+    font-size: 3.5rem;
+    color: #62c9c9;
+}
+
+.bulk{
+    padding: 0 32vw 0 32vw;
+}
+
+.content{
+    color: white;
+    font-family: "Amarna", sans-serif;
+    font-size: 1.3rem;
+    text-align: left;
+    font-weight: 400;
+}
+
+.emph{
+    font-family: "Amarna", sans-serif;
+    font-size: 1.3rem;
+    text-align: left;
+    color: #62c9c9;
+    font-weight: 900;
+    margin-bottom: 3rem;
+
+}
+
