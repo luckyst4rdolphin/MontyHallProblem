@@ -1,5 +1,4 @@
 import './Middle.css';
-import './PostScroll.css';
 
 function PostScroll() {
     return (
@@ -15,4 +14,4 @@ function PostScroll() {
     )
 }
 
-export default PostScroll
+export default PostScroll;
