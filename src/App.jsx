@@ -5,6 +5,10 @@ import Middle from './components/Middle.jsx';
 import MidScroll from './components/MidScroll.jsx';
 import PostScroll from './components/PostScroll.jsx';
 import Distribution from './components/Distribution.jsx';
+import Chartscroll from './components/Chartscroll.jsx';
+import Presim from './components/Presim.jsx';
+import Simulation from './components/Simulation.jsx';
+import PostSim from './components/PostSim.jsx';
 
 const probabilities = [0.5725, 0.575, 0.5775, 0.58, 0.5825, 0.585, 0.5875, 0.59, 
 0.5925, 0.595, 0.5975, 0.6, 0.6025, 0.605, 0.6075, 0.61, 0.6125, 
@@ -43,7 +47,10 @@ function App() {
     <Middle />
     <MidScroll />
     <PostScroll />
-    <Distribution width={700} height={500} data={data} />
+    <Chartscroll />
+    <Presim />
+    <Simulation />
+    <PostSim />
     </>
   );
  

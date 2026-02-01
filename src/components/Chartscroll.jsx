@@ -1,9 +1,14 @@
 import React, { useState } from 'react';
 import { Scrollama, Step } from 'react-scrollama';
 import './MidScroll.css';
+import Img1 from './assets/start.svg';
+import Img2 from './assets/distribution.gif';
+import Img3 from './assets/center.gif';
+import Img4 from './assets/distswitch.gif';
+import Img5 from './assets/distribution.png';
 
 const Chartscroll = () => {
-    const [currentImage, setCurrentImage] = useState(null);
+    const [currentImage, setCurrentImage] = useState(Img1);
 
     const onStepEnter =({ data }) => {
         setCurrentImage(data);
@@ -19,31 +24,30 @@ const Chartscroll = () => {
             <Scrollama offset={0} threshold={2} onStepEnter={onStepEnter}>
                 <Step data={Img2}>
                 <div class='textscroll'>
-                    Remind yourself that...
+                    This data is from a simulation of 400 trials...
                 </div>
                 </Step>
                 <Step data={Img3}>
                 <div class='textscroll'>
-                    at the start you have three doors. 
-                    This gives you a ⅓ chance of picking the correct door.
+                    repeated 100,000 times.
                 </div>
                 </Step>
                 <Step data={Img4}>
                 <div class='textscroll'>
-                    This means if you stick to your first choice your odds will remain ⅓,
+                    After many trials, the distribution centers at around 0.665,
                 </div>
                 </Step>
                 <Step data={Img5}>
                 <div class='textscroll'>
-                    even if one incorrect door was revealed.
+                    which means that if we switch doors, there is actually a 66.65% chance that we win.
                 </div>
                 </Step>
                 <Step data={Img5}>
                 <div class='textscroll'>
-                    The other door will have the rest of the chances, that is ⅔ .
+                    See, it's not 50-50 afterall.
                 </div>
                 </Step>
-                <Step data={Img1}>
+                <Step data={Img5}>
                 <div class='lastscroll2'>
 
                 </div>
@@ -55,4 +59,4 @@ const Chartscroll = () => {
 
 };
 
-export default MidScroll;
+export default Chartscroll;

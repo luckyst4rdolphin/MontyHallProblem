@@ -52,6 +52,7 @@ const Distribution = ({ width, height, data }) => {
               x={x(d.probabilities)}
               y={y(d.probability)}
               fill="#62c9c9"
+              
             />
           ))}
         </g>

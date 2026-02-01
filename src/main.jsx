@@ -11,6 +11,7 @@ import Distribution from './components/Distribution.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
-  </StrictMode>,
+     <App />
+  </StrictMode>
+   
 )
