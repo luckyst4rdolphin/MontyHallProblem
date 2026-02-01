@@ -101,3 +101,11 @@ math{
     margin-right: 1em;
 }
 
+footer{
+    background-color: #333; /* Dark background color */
+    text-align: center;
+    width: 100%;
+    margin-top: 4em;
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+}

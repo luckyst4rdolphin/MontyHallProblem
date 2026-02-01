@@ -35,6 +35,9 @@ function PostSim () {
                 <br />
                 <p class="content">So the next time you want to leave your chances up to fate, remember that you are able to reevaluate your decisions when you've gathered new information. This might just lead you to the right path.</p>
             </div>
+            <footer>
+                <p>Made with 💛 by <a href="https://github.com/luckyst4rdolphin/MontyHallProblem">shamika</a></p>
+            </footer>
         </div>
     )
 }
