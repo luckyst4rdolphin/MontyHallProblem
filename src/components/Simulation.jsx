@@ -56,8 +56,6 @@ function Simulation () {
         handleClick();
         if(played === 'yes' && isChecked === true){
             handleClickWin();
-            console.log(wins)
-            console.log(losses)
         }
     }
 
@@ -66,8 +64,6 @@ function Simulation () {
         handleClick();
         if(played === 'yes' && isChecked === true){
             handleClickWin();
-            console.log(wins)
-            console.log(losses)
         }
     }
 
@@ -76,21 +72,13 @@ function Simulation () {
         handleClick();
         if(played === 'yes'  && isChecked === true){
             handleClickWin();
-            console.log(wins)
-            console.log(losses)
         }
     }
 
     const handleClick = () => {
-        console.log(path);
-        console.log(path == 'state1');
-        console.log(path == 'state2');
-        console.log(path == 'state3');
         if(path === 'state1'){
-            console.log(clickedImage);
             if(clickedImage === 'door1'){
                 setPlay('yes');
-                console.log("clicked");
                 if(state1["openDoor2"] === 'lose' && state1["openDoor3"]  === 'win'){
                     setCurrentImage2(lose);
                 }else if(state1["openDoor2"] === 'win' && state1["openDoor3"] === 'lose'){
@@ -274,7 +262,6 @@ function Simulation () {
             }
         }else if(path === 'state2'){
             if(clickedImage === 'door1'){
-                console.log("clicked");
                 if(state2["openDoor2"] === 'lose' && state2["openDoor3"]  === 'win'){
                     setCurrentImage2(lose);
                     setCurrentImage1(lose);
@@ -360,7 +347,6 @@ function Simulation () {
             }
         }else if(path === 'state3'){
             if(clickedImage === 'door1'){
-                console.log("clicked");
                 if(state3["openDoor2"] === 'lose' && state3["openDoor3"]  === 'win'){
                     setCurrentImage2(lose);
                     setCurrentImage1(lose);
